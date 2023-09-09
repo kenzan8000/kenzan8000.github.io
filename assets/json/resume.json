@@ -1,74 +1,156 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Kenzan Hase",
+    "label": "Software Developer",
+    "email": "me@kenzan8000.org",
+    "url": "https://kenzan8000.org",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+      "city": "Helsinki",
+      "countryCode": "FI",
+      "region": "Uusimaa"
+    }
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Wolt Enterprise Oy",
+      "position": "Software Engineer",
+      "startDate": "2022-01-01",
+      "summary": "Working as an iOS developer.",
+      "highlights": []
+    },
+    {
+      "name": "株式会社InTrip",
+      "position": "iOS Developer",
+      "startDate": "2021-04-01",
+      "endDate": "2021-12-31",
+      "summary": "Worked as an iOS developer.",
       "highlights": [
-        "Relativity"
+        "Implemented new features like mypage and zen diary.",
+        "Introduced unit test and snapshot test.",
+        "Refactored in-app-purchase code."
+      ]
+    },
+    {
+      "name": "週末養蜂",
+      "position": "Backend Developer",
+      "startDate": "2020-07-01",
+      "endDate": "2021-02-28",
+      "summary": "Worked as a backend software developer.",
+      "highlights": [
+        "Migrated the backend of beekeeper's Q&A website from legacy to modern backend."
+      ]
+    },
+    {
+      "name": "ISI-Dentsu of America, Inc.",
+      "position": "Software Engineer",
+      "startDate": "2015-02-01",
+      "endDate": "2020-03-31",
+      "summary": "Designed and developed proof of concepts and prototypes. Conducted demonstrative trials with clients in order to determine feasibility. Researched business opportunities with local tech startups.",
+      "highlights": [
+        "Developed backend of AI robot allowing you to have simple conversations with it.",
+        "Developed travel spot media website specializing into the photos.",
+        "Developed backend and iOS app of weekend event schedule planner prototype for family.",
+        "Developed Facebook Messenger and Line chatbot prototypes used at lounge space located all over the world.",
+        "Developed iOS app prototype displaying graphical information of air pollution on the map with air quality monitoring IoT device.",
+        "Conducted feasibility study of ridehail platform and the mobile SDK for Japanese clients.",
+        "Conducted feasibility study of customer support chatbot for Japanese clients.",
+        "Conducted feasibility study of IoT smart glasses and the SDK."
+      ]
+    },
+    {
+      "name": "週末養蜂",
+      "position": "Frontend Developer",
+      "startDate": "2019-02-01",
+      "endDate": "2019-07-31",
+      "summary": "Worked as a frontend developer.",
+      "highlights": [
+        "Developed frontend of beekeeper's friend search map.",
+        "Developed frontend of medium like rich text editor on 38qa.net.",
+        "Developed simple chat and widget like Facebook Messenger on 38qa.net.",
+        "Developed frontend of public chat widget on 38qa.net."
+      ]
+    },
+    {
+      "name": "株式会社ミライセルフ",
+      "position": "iOS Developer",
+      "startDate": "2014-10-01",
+      "endDate": "2015-02-28",
+      "summary": "Worked as an iOS developer.",
+      "highlights": [
+        "Developed iOS prototype of aptitude test for applicant and companies."
+      ]
+    },
+    {
+      "name": "NexSeed, Inc.",
+      "position": "Programming Teacher",
+      "startDate": "2014-02-01",
+      "endDate": "2014-08-31",
+      "summary": "Taught iOS App Development.",
+      "highlights": [
+        "Assisted students to launch more than 15 Apps on App Store."
+      ]
+    },
+    {
+      "name": "CyberAgent",
+      "position": "iOS Engineer",
+      "startDate": "2011-11-01",
+      "endDate": "2013-09-30",
+      "summary": "Worked in a social media department. Developed 2 iOS Apps from scratch. Supervised and Involved in 3 iOS Apps. Involved in development of Ameba iOS Software Development Kit (SDK). Advised the development with utilizing the SDK in cooking SNS project as a model case.",
+      "highlights": [
+        "iOS App for cooking SNS editing and sharing food photo diary. Worked with 8 members multi-functional team (including directors, designers, Web engineers, and Android engineer).",
+        "iOS App for SNS sharing funny pictures and jokes. Worked with 5 members multi-functional team.",
+        "Developed iOS App for SNS organizing social clubs on the Internet and taught another iOS engineer coding.",
+        "Developed iOS App for Twitter like SNS and taught another iOS engineer coding.",
+        "Developed iOS Game raising virtual pets and Web page in the game."
+      ]
+    },
+    {
+      "name": "PONOS Corporation",
+      "position": "Game Programmer",
+      "startDate": "2010-04-01",
+      "endDate": "2011-10-31",
+      "summary": "Worked on projects with multi-functional teams and developed Mobile Games from scratch in multiple platforms. (Docomo, Softbank, App Store, and Google Play Store)",
+      "highlights": [
+        "Developed iOS and Android Action Games specializing into intuitive interaction and letting players full of nervous excitement.",
+        "Developed iOS Strategy Game whose goal is to defend a player's territories and possessions by obstructing enemy attackers.",
+        "Developed Mobile Action and Strategy Games armed planets battle. Focused on good difficulty level in a fine balance.",
+        "Developed Mobile Shooting Games simulating shooting galley in Japanese festival."
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "Ritsumeikan University, Shiga, Japan",
+      "url": "https://en.ritsumei.ac.jp/",
+      "area": "Computer Science",
+      "startDate": "2005-04-01",
+      "endDate": "2010-03-31",
       "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "courses": []
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
+  "awards": [],
   "certificates": [],
   "publications": [],
   "skills": [],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker"
+      "language": "Japanese",
+      "fluency": "Native proficiency"
     },
     {
       "language": "English",
-      "fluency": "Fluent"
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Elementary proficiency"
+    },
+    {
+      "language": "Finnish",
+      "fluency": "Studying..."
     }
   ],
   "interests": [],
