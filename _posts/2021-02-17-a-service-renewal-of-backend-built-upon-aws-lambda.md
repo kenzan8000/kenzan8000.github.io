@@ -2,7 +2,7 @@
 layout: post
 title: A service renewal of backend built upon AWS Lambda
 date: 2021-02-17T02:51:11+0300
-description: 
+description: I recently worked on a website backend migration. This blog post explains how we tackled the issues.
 tags: TypeScript NestJS AWS Datadog
 categories: Backend
 giscus_comments: true
@@ -11,7 +11,7 @@ toc:
   sidebar: left
 ---
 
-I recently worked on [38qa.net](https://38qa.net/) migration as a backend developer. The current service is one monolithic app based on [question2answer](https://github.com/q2a/question2answer) which is an open source Q&A platform for PHP/MySQL. (The new one hasn’t been released yet as of February, 2021.) We divided the app into frontend and backend written in TypeScript but still kept the same feature it used to have. On this blog post, I would like to look back the backend development.
+I recently worked on [38qa.net](https://38qa.net/) migration as a backend developer. The current 38qa.net is one monolithic app based on [question2answer](https://github.com/q2a/question2answer) which is an open source Q&A platform for PHP/MySQL. (The new one hasn’t been released yet as of February, 2021.) We divided the app into frontend and backend written in TypeScript but still kept the same feature it used to have. On this blog post, I would like to look back the backend development.
 
 ## Motivation
 

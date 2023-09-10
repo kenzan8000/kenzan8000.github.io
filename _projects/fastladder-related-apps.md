@@ -2,6 +2,7 @@
 layout: page
 title: Fastladder related Apps
 description: Introduces some apps related to an open source RSS feed reader called Fastladder.
+img: assets/img/ladder-client.jpg
 importance: 1
 category: fun
 ---

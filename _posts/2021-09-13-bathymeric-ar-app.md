@@ -11,6 +11,8 @@ toc:
   sidebar: left
 ---
 
+This blog post introduces my side project called bathymetric-cam. bathymetric-cam is an iOS AR app visualizing depth contour of water.
+
 ## Motivation
 
 Have you ever wanted to know the water depth on the site?
