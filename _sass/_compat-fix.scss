@@ -11,14 +11,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.table-cv:not(.table) td,
-.table-cv:not(.table) th {
-  border-top: none;
+  z-index: 1040;
 }
 
 #back-to-top svg {
   display: block;
   margin: 0 !important;
+}
+
+footer.fixed-bottom {
+  anchor-name: --fixed-footer;
+}
+
+@supports (bottom: anchor(top)) {
+  body:has(footer.fixed-bottom) #back-to-top:not(.hidden) {
+    position-anchor: --fixed-footer;
+    bottom: calc(anchor(top) + 0.75rem) !important;
+  }
+}
+
+.table-cv:not(.table) td,
+.table-cv:not(.table) th {
+  border-top: none;
 }
