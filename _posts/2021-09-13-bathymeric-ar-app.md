@@ -43,10 +43,10 @@ Then I wrote a [script](https://github.com/bathymetric-cam/geojson-to-map-tile) 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/2021-09-13-bathymeric-ar-app-geojson.jpg" title="GeoJSON" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/2021-09-13-bathymeric-ar-app-geojson.jpg" title="GeoJSON" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/2021-09-13-bathymeric-ar-app-maptile.png" title="Map tile" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/2021-09-13-bathymeric-ar-app-maptile.png" title="Map tile" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -54,7 +54,7 @@ As a result, I have drawn a part of the south lake in [Lake Biwa](https://en.wik
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/2021-09-13-bathymeric-ar-app-qgis.webp" title="Map tiles" class="img-fluid" %}
+        {% include figure.liquid path="/assets/img/2021-09-13-bathymeric-ar-app-qgis.webp" title="Map tiles" class="img-fluid" %}
     </div>
 </div>
 
@@ -64,7 +64,7 @@ The PNG files are uploaded on CDN. It works as a simplified map tile server.
 
 The prototype app is a simple AR app that has a rounded map on the bottom. If you turn your iPhone’s camera toward one direction, the map follows the exact same direction. Thus the AR and map seamlessly face to the same direction. They also render the same map tiles downloaded from the tile server. I place a slider UI that adjusts the altitude of water surface. Let’s assume the anchor point is where your camera is. The water surface is located under X meter of it.
 
-{% include video.html path="https://www.youtube.com/embed/HrZpjp9iqkA" class="img-fluid rounded z-depth-1" %}
+{% include video.liquid path="https://www.youtube.com/embed/HrZpjp9iqkA" class="img-fluid rounded z-depth-1" %}
 
 ## Foresight
 

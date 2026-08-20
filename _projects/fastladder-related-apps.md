@@ -11,7 +11,7 @@ category: fun
 
 <div class="row justify-content-sm-center">
     <div class="col-4">
-        {% include figure.html path="/assets/img/ladder-client.gif" title="Ladder Client"  class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/ladder-client.gif" title="Ladder Client"  class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -30,7 +30,7 @@ category: fun
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/fastladder-discover-feeds.png" title="Ladder Fastladder Discover Feeds for Chrome"  class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/fastladder-discover-feeds.png" title="Ladder Fastladder Discover Feeds for Chrome"  class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -45,7 +45,7 @@ category: fun
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/fastladder-push-pin.png" title="Ladder Fastladder Push Pin for Chrome"  class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/fastladder-push-pin.png" title="Ladder Fastladder Push Pin for Chrome"  class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

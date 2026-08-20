@@ -9,7 +9,7 @@ category: fun
 
 <div class="row justify-content-sm-center">
     <div class="col-4">
-        {% include video.html path="https://www.youtube.com/embed/CQHQ1ya65qo" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="https://www.youtube.com/embed/CQHQ1ya65qo" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

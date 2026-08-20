@@ -35,7 +35,7 @@ NestJS makes use of Express under the hood but provides compatibility with a wid
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/2021-02-17-a-service-renewal-of-backend-built-upon-aws-lambda-architecture.jpg" title="Architecture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/2021-02-17-a-service-renewal-of-backend-built-upon-aws-lambda-architecture.jpg" title="Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -77,7 +77,7 @@ Cognito invokes Lambda function for the first attempt when a user signs in but t
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/2021-02-17-a-service-renewal-of-backend-built-upon-aws-lambda-cognito.jpg" title="Cognito" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/2021-02-17-a-service-renewal-of-backend-built-upon-aws-lambda-cognito.jpg" title="Cognito" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -93,7 +93,7 @@ The other one is one-time job that runs only once. For example, the current app 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/2021-02-17-a-service-renewal-of-backend-built-upon-aws-lambda-cron.jpg" title="Cron" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/2021-02-17-a-service-renewal-of-backend-built-upon-aws-lambda-cron.jpg" title="Cron" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -101,7 +101,7 @@ The other one is one-time job that runs only once. For example, the current app 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/2021-02-17-a-service-renewal-of-backend-built-upon-aws-lambda-datadog-dashboard.jpg" title="Datadog dashboard" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/2021-02-17-a-service-renewal-of-backend-built-upon-aws-lambda-datadog-dashboard.jpg" title="Datadog dashboard" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -111,7 +111,7 @@ Your Lambda metrics go to CloudWatch via Datadog Lambda layer first. Then anothe
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/2021-02-17-a-service-renewal-of-backend-built-upon-aws-lambda-datadog.jpg" title="Datadog" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/2021-02-17-a-service-renewal-of-backend-built-upon-aws-lambda-datadog.jpg" title="Datadog" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -119,7 +119,7 @@ Your Lambda metrics go to CloudWatch via Datadog Lambda layer first. Then anothe
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/2021-02-17-a-service-renewal-of-backend-built-upon-aws-lambda-artillery.jpg" title="Artillery" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/2021-02-17-a-service-renewal-of-backend-built-upon-aws-lambda-artillery.jpg" title="Artillery" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -127,7 +127,7 @@ To run the load testing, I decided to use [artillery](https://artillery.io/). Ar
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/2021-02-17-a-service-renewal-of-backend-built-upon-aws-lambda-artillery-on-datadog-dashboard.jpg" title="Artillery on Datadog dashboard" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/2021-02-17-a-service-renewal-of-backend-built-upon-aws-lambda-artillery-on-datadog-dashboard.jpg" title="Artillery on Datadog dashboard" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

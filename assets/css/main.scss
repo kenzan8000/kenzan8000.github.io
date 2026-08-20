@@ -3,14 +3,51 @@
 ---
 @charset "utf-8";
 
-// Dimensions
-$max-content-width: {{ site.max_width }};
+@use "sass:math";
+@use "sass:string";
 
-@import
-  "variables",
-  "themes",
-  "layout",
-  "base",
-  "distill",
-  "cv"
-;
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+@use "themes";
+@use "layout";
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+@use "tabs";
+@use "teachings";
+@use "typograms";
+@use "compat-fix";
+
+// Keep this in main.scss as well so the override still ships if
+// `_sass/_compat-fix.scss` is not on the Sass load path.
+@media (min-width: 576px) {
+  .navbar-expand-sm .navbar-collapse.collapse {
+    visibility: visible;
+  }
+}
+
+#back-to-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body:has(footer.fixed-bottom) #back-to-top {
+  bottom: 3.5rem !important;
+}
+
+.table-cv:not(.table) td,
+.table-cv:not(.table) th {
+  border-top: none;
+}
+
+#back-to-top svg {
+  display: block;
+  margin: 0 !important;
+}

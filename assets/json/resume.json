@@ -8,15 +8,15 @@
     "location": {
       "city": "Helsinki",
       "countryCode": "FI",
-      "region": "Uusimaa"
+      "region": "Finland"
     }
   },
   "work": [
     {
       "name": "Wolt Enterprise Oy",
-      "position": "Software Engineer",
+      "position": "iOS Engineer",
       "startDate": "2022-01-01",
-      "summary": "Working as an iOS developer.",
+      "summary": "Working as an iOS engineer.",
       "highlights": []
     },
     {
@@ -147,10 +147,6 @@
     {
       "language": "Spanish",
       "fluency": "Elementary proficiency"
-    },
-    {
-      "language": "Finnish",
-      "fluency": "Studying..."
     }
   ],
   "interests": [],

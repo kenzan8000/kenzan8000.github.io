@@ -1,0 +1,24 @@
+// Bootstrap compat hides any `.collapse` with `visibility: hidden`.
+// v1's navbar keeps that class while using `display: flex` from
+// `.navbar-expand-sm`, so the links stay in the layout but are invisible.
+@media (min-width: 576px) {
+  .navbar-expand-sm .navbar-collapse.collapse {
+    visibility: visible;
+  }
+}
+
+#back-to-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-cv:not(.table) td,
+.table-cv:not(.table) th {
+  border-top: none;
+}
+
+#back-to-top svg {
+  display: block;
+  margin: 0 !important;
+}
