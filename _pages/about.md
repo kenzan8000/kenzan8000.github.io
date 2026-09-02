@@ -21,4 +21,4 @@ latest_posts:
   limit: 3
 ---
 
-Kenzan Hase is a fully stuck software developer that likes fishing, traveling, learning foreign languages, learning history, and making apps for the [side projects](/projects/). I am currently based in Helsinki, Finland but originally from Kyoto, Japan.
+I'm Kenzan Hase, a fully stuck software developer. I like fishing, traveling, learning languages and history, and making apps for [side projects](/projects/). I'm based in Helsinki, originally from Kyoto.
