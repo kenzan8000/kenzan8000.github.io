@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Avoid Crime
-description: iOS navigation app helping you avoid the route there are more criminal activities through the graphical information on the map.
+description: An iOS navigation app that helps you avoid routes with more crime, shown graphically on the map.
 img: assets/img/avoid-crime.jpg
 importance: 10
 category: fun

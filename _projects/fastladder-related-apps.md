@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Fastladder related Apps
-description: Introduces some apps related to an open source RSS feed reader called Fastladder.
+title: Fastladder-Related Apps
+description: A few apps for Fastladder, an open-source RSS reader.
 img: assets/img/ladder-client.jpg
 importance: 1
 category: fun
@@ -15,7 +15,7 @@ category: fun
     </div>
 </div>
 <div class="caption">
-    iOS client for Fastladder. Ladder Client provides better experience comparing to just viewing the RSS reader on mobile browser.
+    An iOS client for Fastladder. Easier than reading Fastladder in a mobile browser.
     |
     <span>
         <a href="https://apps.apple.com/us/app/ladder-client/id1317507559">App Store</a>
@@ -34,7 +34,7 @@ category: fun
     </div>
 </div>
 <div class="caption">
-    Google Chrome extension helping you discover RSS feeds on a website and subscribe to them on your Fastladder.
+    A Chrome extension that finds RSS feeds on a page and lets you subscribe to them in Fastladder.
     |
     <span>
         <a href="https://chrome.google.com/webstore/detail/fastladder-discover-feeds/kpgpnckgeicbcilknadjilhhhfpeijec">Chrome Web Store</a>
@@ -49,7 +49,7 @@ category: fun
     </div>
 </div>
 <div class="caption">
-    Google Chrome extension adding the website you are currently browsing to your Fastladder read-later url list.
+    A Chrome extension that adds the page you are browsing to your Fastladder read-later list.
     |
     <span>
         <a href="https://chrome.google.com/webstore/detail/fastladder-push-pin-for-c/jfckpfjiakklmlihlbgkmeadmjhilmkm">Chrome Web Store</a>

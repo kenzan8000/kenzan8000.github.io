@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Trip Phrases
-description: iOS app allowing you to learn trip phrases in 26 languages. You can imitate the text to speech or just let the local people listen to it if it’s difficult for you to pronounce the phrases.
+description: An iOS app for travel phrases in 26 languages. Practice with text-to-speech, or play the audio for locals if pronunciation is hard.
 img: assets/img/trip-phrases.jpg
 importance: 10
 category: fun

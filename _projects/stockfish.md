@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stockfish
-description: Fish planting schedule mail magazine compiling the updates from online sources for you to customize the subscription by waterbody locations, species, frequency you receive the email, etc.
+description: A newsletter that compiles fish-stocking schedules from online sources. Subscribe by waterbody, species, and how often you want the email.
 img: assets/img/stockfish.png
 importance: 1
 category: fun

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Audio Tour
-description: AR and map app offering a spot’s audio guide, similar to how a museum audio guide helps you understand the works of art at a deeper level.
+description: An AR and map app that plays audio guides for nearby spots, the way a museum audio guide helps you understand the art.
 img: assets/img/audio-tour.jpg
 importance: 1
 category: fun
@@ -38,5 +38,5 @@ category: fun
     </div>
 </div>
 <div class="caption">
-    The live camera view displays spots on top of the image from the camera at your location. Face your camera to the spots and tap the icon to listen to the audio guide. The map view gives you a birds-eye view of the city. You can plan places to visit before going out or check them out during your trip.
+    The live camera view overlays nearby spots on what you see. Point your camera at a spot and tap the icon to hear the audio guide. The map gives you a bird's-eye view of the city, so you can plan stops before you go or check them during the trip.
 </div>
