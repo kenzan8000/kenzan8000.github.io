@@ -2,7 +2,7 @@
 layout: post
 title: Bathymetric AR App
 date: 2021-09-13T17:21:03+0300
-description: This blog post introduces my side project called bathymetric-cam. bathymetric-cam is an iOS AR app visualizing depth contour of water.
+description: bathymetric-cam is an iOS AR app that visualizes water-depth contours.
 tags: iOS app fishing
 categories: MobileApp
 giscus_comments: true
@@ -11,19 +11,19 @@ toc:
   sidebar: left
 ---
 
-This blog post introduces my side project called bathymetric-cam. bathymetric-cam is an iOS AR app visualizing depth contour of water.
+This post introduces my side project, bathymetric-cam. It is an iOS AR app that visualizes water-depth contours.
 
 ## Motivation
 
-Have you ever wanted to know the water depth on the site?
+Have you ever wanted to know the water depth on site?
 
-It may sound a bit weird to you but yes, I have. Especially for anglers, depth contour can be a hint to find the target species. Depth contour represents a line connecting points of equal depth on ocean or lake floors. If the contour lines spaced narrowly between one and another, it indicates that the area has the steep transition. This kind of spots is called drop-offs when the anglers target a certain type of species like Largemouth Bass. Also, for example, Largemouth Bass is known as the habit preferring to stay at deeper water when the temperature is cold in winter. bathymetric-cam visualizes the depth contour by the intuitive AR view in order to help you find a better fishing spot.
+That may sound a bit odd, but I have. For anglers especially, depth contours can be a hint for finding the target species. A depth contour is a line connecting points of equal depth on an ocean or lake floor. When the lines are spaced tightly, the bottom drops off steeply. Anglers call those spots drop-offs, and they matter when you are targeting species such as largemouth bass. Largemouth bass are also known for holding in deeper water when it is cold in winter. bathymetric-cam shows those contours in an AR view to help you find a better fishing spot.
 
 ## Prototyping
 
 ### Data Creation
 
-To visualize the water depth, first, I need the data for POC. I drew the depth contour polygon by hand on [QGIS](https://www2.qgis.org) app, and exported GeoJSON file per map tile based on the [tile system](https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames).
+To visualize water depth, I first needed data for a proof of concept. I drew the depth-contour polygons by hand in [QGIS](https://www2.qgis.org), then exported a GeoJSON file per map tile using the [slippy map tile system](https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames).
 
 ```json
 {
@@ -39,7 +39,7 @@ To visualize the water depth, first, I need the data for POC. I drew the depth c
 }
 ```
 
-Then I wrote a [script](https://github.com/bathymetric-cam/geojson-to-map-tile) converting GeoJSON files into PNG map tile images. For example, the following GeoJSON file becomes the map tile image below.
+Then I wrote a [script](https://github.com/bathymetric-cam/geojson-to-map-tile) that converts those GeoJSON files into PNG map tiles. For example, the GeoJSON below becomes the tile image next to it.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -50,7 +50,7 @@ Then I wrote a [script](https://github.com/bathymetric-cam/geojson-to-map-tile) 
     </div>
 </div>
 
-As a result, I have drawn a part of the south lake in [Lake Biwa](https://en.wikipedia.org/wiki/Lake_Biwa). The manual labor is definitely not for a lazy programmer…
+I ended up drawing part of the south lake of [Lake Biwa](https://en.wikipedia.org/wiki/Lake_Biwa). Manual labor is definitely not for a lazy programmer…
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -58,18 +58,18 @@ As a result, I have drawn a part of the south lake in [Lake Biwa](https://en.wik
     </div>
 </div>
 
-The PNG files are uploaded on CDN. It works as a simplified map tile server.
+The PNG files are uploaded to a CDN, which works as a simplified map-tile server.
 
 ### iOS app
 
-The prototype app is a simple AR app that has a rounded map on the bottom. If you turn your iPhone’s camera toward one direction, the map follows the exact same direction. Thus the AR and map seamlessly face to the same direction. They also render the same map tiles downloaded from the tile server. I place a slider UI that adjusts the altitude of water surface. Let’s assume the anchor point is where your camera is. The water surface is located under X meter of it.
+The prototype is a simple AR app with a rounded map at the bottom. When you turn the iPhone camera, the map turns with it, so the AR view and the map face the same direction. Both render the same tiles from the tile server. A slider sets the altitude of the water surface. The camera is the anchor; the water surface sits X meters below it.
 
 {% include video.liquid path="https://www.youtube.com/embed/HrZpjp9iqkA" class="img-fluid rounded z-depth-1" %}
 
-## Foresight
+## What's next
 
-Honestly, I’m struggling to decide where to make the next improvement. The jaggy image isn’t looking very pretty. There are other ways to visualize depth contour as well. Moreover, there is more information to help you find a better fishing spot. i.e. temperature, water temperature, weather, wind, water current, catch history, etc.
+Honestly, I am still deciding what to improve next. The jaggy tiles do not look great. There are other ways to visualize depth contours, and more information that would help you find a better spot: air temperature, water temperature, weather, wind, current, catch history, and so on.
 
-I want to go fishing to Lake Biwa and take a look at how this app works in practice but for now, I avoid taking a public transportation to get there due to the pandemic. I miss fishing there.
+I want to go fishing at Lake Biwa and see how the app works in practice, but for now I am avoiding public transit because of the pandemic. I miss fishing there.
 
 [Github](https://github.com/bathymetric-cam/bathymetric-cam-ios)
