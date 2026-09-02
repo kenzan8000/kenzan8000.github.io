@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Kenzan Hase",
-    "label": "Software Developer",
+    "label": "iOS Engineer",
     "email": "me@kenzan8000.org",
     "url": "https://kenzan8000.org",
     "summary": "",
@@ -13,109 +13,136 @@
   },
   "work": [
     {
-      "name": "Wolt Enterprise Oy",
+      "name": "Wolt",
       "position": "iOS Engineer",
+      "url": "https://wolt.com",
+      "location": "Helsinki, Finland",
       "startDate": "2022-01-01",
-      "summary": "Working as an iOS engineer.",
-      "highlights": []
+      "summary": "iOS engineer on the consumer app at a Helsinki-based delivery platform that connects customers, merchants, and couriers for food, groceries, retail, and more. Swift / iOS.",
+      "highlights": [
+        "Implemented the city-status module on the discovery homepage, which surfaces city-wide conditions such as late-night closures or slower delivery during busy periods.",
+        "Implemented the address-entry flow for Japan, using postcode lookup.",
+        "Owned a large-scale renewal of the iOS store page, focusing on the scrolling experience and store header.",
+        "Implemented Google Consent Mode and marketing-consent handling, including consent sync across the apps.",
+        "Automated regression tests for the onboarding flow with Maestro.",
+        "Added European Accessibility Act support in the app for search, discovery, and address entry.",
+        "Developed the category page, where users browse restaurants, groceries, and retail by category, with filters and a product-first view across nearby stores.",
+        "Operated and maintained Wolt's backend-driven UI rendering engine.",
+        "Built an experimental iOS frontend for an AI grocery-assistant chatbot."
+      ]
     },
     {
       "name": "株式会社InTrip",
-      "position": "iOS Developer",
+      "position": "iOS Engineer",
+      "location": "Kyoto, Japan",
       "startDate": "2021-04-01",
       "endDate": "2021-12-31",
-      "summary": "Worked as an iOS developer.",
+      "summary": "Freelance iOS engineer on a Zen practice and sound meditation app. Swift / iOS.",
       "highlights": [
-        "Implemented new features like mypage and zen diary.",
-        "Introduced unit test and snapshot test.",
-        "Refactored in-app-purchase code."
+        "Implemented new features such as My Page and a Zen diary.",
+        "Strengthened automated coverage of app behavior and UI with unit and snapshot tests.",
+        "Restructured the billing and in-app purchase flow."
       ]
     },
     {
       "name": "週末養蜂",
-      "position": "Backend Developer",
+      "position": "Software Engineer",
+      "url": "https://syumatsu-yoho.co.jp/",
+      "location": "Kyoto, Japan",
       "startDate": "2020-07-01",
       "endDate": "2021-02-28",
-      "summary": "Worked as a backend software developer.",
+      "summary": "Freelance backend developer for a Japanese beekeepers' organization that sells equipment and runs Q&A, e-commerce, and community sites. NestJS / TypeScript.",
       "highlights": [
-        "Migrated the backend of beekeeper's Q&A website from legacy to modern backend."
+        "Migrated the backend of the beekeepers' Q&A site from a legacy stack to a modern one ([38qa.net](https://38qa.net)).",
+        "Wrote up the migration: [A service renewal of backend built upon AWS Lambda](https://kenzan8000.org/blog/a-service-renewal-of-backend-built-upon-aws-lambda/)."
       ]
     },
     {
       "name": "ISI-Dentsu of America, Inc.",
       "position": "Software Engineer",
+      "location": "San Francisco Bay Area",
       "startDate": "2015-02-01",
       "endDate": "2020-03-31",
-      "summary": "Designed and developed proof of concepts and prototypes. Conducted demonstrative trials with clients in order to determine feasibility. Researched business opportunities with local tech startups.",
+      "summary": "Designed and developed proofs of concept and prototypes, ran client trials to assess feasibility, and researched business opportunities with local tech startups for a Japanese technical consultancy. Swift, Objective-C, iOS, Ruby on Rails, Vue.js, Python, Android.",
       "highlights": [
-        "Developed backend of AI robot allowing you to have simple conversations with it.",
-        "Developed travel spot media website specializing into the photos.",
-        "Developed backend and iOS app of weekend event schedule planner prototype for family.",
-        "Developed Facebook Messenger and Line chatbot prototypes used at lounge space located all over the world.",
-        "Developed iOS app prototype displaying graphical information of air pollution on the map with air quality monitoring IoT device.",
-        "Conducted feasibility study of ridehail platform and the mobile SDK for Japanese clients.",
-        "Conducted feasibility study of customer support chatbot for Japanese clients.",
-        "Conducted feasibility study of IoT smart glasses and the SDK."
+        "Developed the backend for an AI robot that supports simple conversation. ([konel.jp](https://konel.jp/works/ai-kabira/))",
+        "Developed a travel-spot media site focused on photography. ([docoico.world](https://www.docoico.world))",
+        "Developed the backend and iOS app for a weekend event-planner prototype for families.",
+        "Developed Facebook Messenger and LINE chatbot prototypes for lounge spaces worldwide.",
+        "Developed an iOS app prototype that maps air-pollution data from an air-quality monitoring IoT device.",
+        "Conducted a feasibility study of a ride-hailing platform and mobile SDK for Japanese clients.",
+        "Conducted a feasibility study of a customer-support chatbot for Japanese clients.",
+        "Conducted a feasibility study of IoT smart glasses and their SDK."
       ]
     },
     {
       "name": "週末養蜂",
       "position": "Frontend Developer",
+      "url": "https://syumatsu-yoho.co.jp/",
+      "location": "Kyoto, Japan",
       "startDate": "2019-02-01",
       "endDate": "2019-07-31",
-      "summary": "Worked as a frontend developer.",
+      "summary": "Freelance frontend developer for the same beekeepers' organization. React / TypeScript.",
       "highlights": [
-        "Developed frontend of beekeeper's friend search map.",
-        "Developed frontend of medium like rich text editor on 38qa.net.",
-        "Developed simple chat and widget like Facebook Messenger on 38qa.net.",
-        "Developed frontend of public chat widget on 38qa.net."
+        "Developed the frontend for a beekeeper friend-search map. ([38qa.net/friend-map](https://38qa.net/friend-map/))",
+        "Developed a Medium-style rich text editor for 38qa.net.",
+        "Developed a simple chat and Facebook Messenger-style widget for 38qa.net.",
+        "Developed the frontend for a public chat widget on 38qa.net."
       ]
     },
     {
       "name": "株式会社ミライセルフ",
-      "position": "iOS Developer",
+      "position": "iOS Engineer",
+      "url": "https://mitsucari.com/",
+      "location": "Tokyo, Japan",
       "startDate": "2014-10-01",
       "endDate": "2015-02-28",
-      "summary": "Worked as an iOS developer.",
+      "summary": "Freelance iOS engineer for a service that assesses cultural fit between companies and job applicants. Swift / iOS.",
       "highlights": [
-        "Developed iOS prototype of aptitude test for applicant and companies."
+        "Developed an iOS prototype of an aptitude test for applicants and companies."
       ]
     },
     {
       "name": "NexSeed, Inc.",
       "position": "Programming Teacher",
+      "url": "https://nexseed.net/",
+      "location": "Cebu, Philippines",
       "startDate": "2014-02-01",
       "endDate": "2014-08-31",
-      "summary": "Taught iOS App Development.",
+      "summary": "Taught iOS app development part-time at an English and programming school. Objective-C / iOS.",
       "highlights": [
-        "Assisted students to launch more than 15 Apps on App Store."
+        "Helped students launch more than 15 apps on the App Store."
       ]
     },
     {
       "name": "CyberAgent",
       "position": "iOS Engineer",
+      "url": "https://www.cyberagent.co.jp/en/",
+      "location": "Tokyo, Japan",
       "startDate": "2011-11-01",
       "endDate": "2013-09-30",
-      "summary": "Worked in a social media department. Developed 2 iOS Apps from scratch. Supervised and Involved in 3 iOS Apps. Involved in development of Ameba iOS Software Development Kit (SDK). Advised the development with utilizing the SDK in cooking SNS project as a model case.",
+      "summary": "Worked in the social media department. Developed two iOS apps from scratch, supervised and contributed to three more, contributed to the Ameba iOS SDK, and advised a cooking SNS project on adopting it. Objective-C / iOS.",
       "highlights": [
-        "iOS App for cooking SNS editing and sharing food photo diary. Worked with 8 members multi-functional team (including directors, designers, Web engineers, and Android engineer).",
-        "iOS App for SNS sharing funny pictures and jokes. Worked with 5 members multi-functional team.",
-        "Developed iOS App for SNS organizing social clubs on the Internet and taught another iOS engineer coding.",
-        "Developed iOS App for Twitter like SNS and taught another iOS engineer coding.",
-        "Developed iOS Game raising virtual pets and Web page in the game."
+        "Built an iOS app from scratch for a cooking SNS where users edit and share food photo diaries, on a cross-functional team. ([Pecolly](https://apps.apple.com/us/app/pecolly-cooking-community/id544605228))",
+        "Built an iOS app from scratch for an SNS focused on sharing funny pictures and jokes, on a 5-person cross-functional team. ([App Store](https://apps.apple.com/jp/app/2miaode-xiaoeruapuri-ameba/id603484445))",
+        "Developed an iOS app for organizing social clubs online, and mentored another iOS engineer.",
+        "Developed an iOS app for a Twitter-like SNS, and mentored another iOS engineer.",
+        "Developed an iOS virtual-pet game and the in-game web pages."
       ]
     },
     {
       "name": "PONOS Corporation",
       "position": "Game Programmer",
+      "url": "https://www.ponos.jp/",
+      "location": "Kyoto, Japan",
       "startDate": "2010-04-01",
       "endDate": "2011-10-31",
-      "summary": "Worked on projects with multi-functional teams and developed Mobile Games from scratch in multiple platforms. (Docomo, Softbank, App Store, and Google Play Store)",
+      "summary": "Built mobile games from scratch with cross-functional teams for NTT Docomo, SoftBank, the App Store, and Google Play. Released four games. Java, C, Objective-C++, iOS, Android, OpenGL.",
       "highlights": [
-        "Developed iOS and Android Action Games specializing into intuitive interaction and letting players full of nervous excitement.",
-        "Developed iOS Strategy Game whose goal is to defend a player's territories and possessions by obstructing enemy attackers.",
-        "Developed Mobile Action and Strategy Games armed planets battle. Focused on good difficulty level in a fine balance.",
-        "Developed Mobile Shooting Games simulating shooting galley in Japanese festival."
+        "Developed iOS and Android action games focused on intuitive controls and tense, high-energy gameplay. ([Mr. Oops](http://www.ponos.co.jp/iphone/en/mroops.htm))",
+        "Developed an iOS strategy game in which players defend their territory and resources by blocking enemy attackers. ([Ballistik](http://www.ponos.co.jp/iphone/en/ballistik.htm))",
+        "Developed mobile action and strategy games featuring battles between armed planets, with a focus on well-balanced difficulty. ([Battle Planet](http://www.ponos.co.jp/taisenbaka/battle_planet.htm))",
+        "Developed a mobile shooting game that simulates a shooting gallery at a Japanese festival. ([Syateki](http://www.ponos.co.jp/taisenbaka/syateki.htm))"
       ]
     }
   ],
@@ -134,7 +161,16 @@
   "awards": [],
   "certificates": [],
   "publications": [],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Mobile",
+      "keywords": ["Swift", "Objective-C", "iOS", "Android"]
+    },
+    {
+      "name": "Web",
+      "keywords": ["TypeScript", "React", "Vue.js", "NestJS", "Ruby on Rails", "Python"]
+    }
+  ],
   "languages": [
     {
       "language": "Japanese",
