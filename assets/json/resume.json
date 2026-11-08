@@ -17,17 +17,16 @@
       "position": "iOS Engineer",
       "url": "https://wolt.com",
       "startDate": "2022-01-01",
-      "summary": "iOS engineer on the consumer app at a Helsinki-based delivery platform that connects customers, merchants, and couriers for food, groceries, retail, and more. Swift / iOS.",
+      "summary": "iOS engineer on the consumer app at a Helsinki-based company connecting customers, merchants, and couriers for delivery of food, groceries, retail, and more. Swift, iOS.",
       "highlights": [
-        "Implemented the city-status module on the discovery homepage, which surfaces city-wide conditions such as late-night closures or slower delivery during busy periods.",
+        "Implemented the city-status module on the discovery homepage, surfacing late-night closures or slower delivery when busy.",
         "Implemented the address-entry flow for Japan, using postcode lookup.",
-        "Owned a large-scale renewal of the iOS store page, focusing on the scrolling experience and store header.",
-        "Implemented Google Consent Mode and marketing-consent handling, including consent sync across the apps.",
-        "Automated regression tests for the onboarding flow with Maestro.",
-        "Added European Accessibility Act support in the app for search, discovery, and address entry.",
-        "Developed the category page, where users browse restaurants, groceries, and retail by category, with filters and a product-first view across nearby stores.",
-        "Operated and maintained Wolt's backend-driven UI rendering engine.",
-        "Built an experimental iOS frontend for an AI grocery-assistant chatbot."
+        "Owned a large-scale renewal of the iOS store page. With cross-functional teammates, covered the many cases where the header's metadata layout differs by country, regulation, and content, and made it stable. Translated motion specifications into scroll-driven motion: the image fades, the logo shrinks, and the title moves from centered to leading and crossfades. The shorter header leaves at least one item visible.",
+        "Implemented Google Consent Mode and cross-app marketing-consent sync, including its documentation. Separately, handed ownership from the former Onboarding team to the Privacy team with added documentation and handover sessions, leaving the new iOS owner with clear, continuous ownership of this compliance-sensitive work at Wolt's scale.",
+        "Automated the onboarding regression cases with Maestro, covering Facebook, Google, Apple, Magic link, SMS, WhatsApp, and resend flows, with no dedicated Onboarding team. They run in the regression pipeline, cutting manual testing and speeding up delivery.",
+        "Added European Accessibility Act support for search, discovery, and address entry.",
+        "Led the iOS category page from scratch: one page per level of the product's category and sub-category hierarchy. Shipped advanced filter animations, an expanding grid, and performance work, and aligned iOS, Android, Web, and Backend on telemetry, response formats, and UI.",
+        "Built an experimental iOS frontend for an AI grocery-assistant chatbot. Fast proofs of concept, prototypes, and trials judged feasibility."
       ]
     },
     {
